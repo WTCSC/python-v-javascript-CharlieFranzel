@@ -1,5 +1,4 @@
-function generatePassword(length = 100
-) {
+function generatePassword(length = 12) {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_'; // A list of possible characters
     let counter = 0 
     let password = []
